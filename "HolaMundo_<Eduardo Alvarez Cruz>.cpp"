@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+char nombre;
+
+int main()
+{
+	printf("Ingresar nombre completo: ");
+	scanf("%s", &nombre);
+	printf("\nHola mundo %s", &nombre);
+	getch();
+ retorno 0;
+} 
